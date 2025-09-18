@@ -9,8 +9,7 @@ use Firebase\JWT\JWT;
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     msg("Method Not Allowed", 405);
 }
-=======
->>>>>>> de80e1728c3d28b4ea6dc5d6b5f84a8dd7719250
+
 // error_reporting(E_ALL);
 // ini_set('display_errors', 1);
 
